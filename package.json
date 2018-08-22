@@ -1,0 +1,17 @@
+{
+  "name": "who-am-i",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/dkimura/who-am-i.git",
+  "author": "Daichi Kimura <dkimura@bdd.xyz>",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-deck": "^1.5.10",
+    "react": "^16.4.2",
+    "recompose": "^0.28.2"
+  },
+  "scripts": {
+    "start": "mdx-deck ./src/index.md",
+    "build": "mdx-deck build ./src/index.md"
+  }
+}
