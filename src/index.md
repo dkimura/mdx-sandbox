@@ -47,7 +47,7 @@
 
 ---
 
-![](mdx.png)
+![](images/mdx.png)
 
 ---
 
@@ -56,7 +56,6 @@
 **JSX in Markdown** for ambitious projects
 
 - https://mdxjs.com/
-- https://github.com/jxnblk/mdx-deck
 
 ---
 
@@ -64,7 +63,15 @@
 
 ---
 
-![](mdx-deck.png)
+![](images/mdx-deck.png)
+
+---
+
+# mdx-deck
+
+**MDX-based presentation decks**
+
+- https://github.com/jxnblk/mdx-deck
 
 ---
 
@@ -85,7 +92,7 @@
 
 ## こう書いて
 
-![](button.png)
+![](images/button.png)
 
 ---
 
@@ -93,7 +100,7 @@
 
 ---
 
-import EnhancedButton from './Button'
+import EnhancedButton from './components/Button'
 
 <EnhancedButton />
 
