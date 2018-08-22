@@ -13,5 +13,8 @@
   "scripts": {
     "start": "mdx-deck ./src/index.md",
     "build": "mdx-deck build ./src/index.md"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
   }
 }
