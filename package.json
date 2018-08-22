@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "mdx-deck ./src/index.md",
-    "build": "mdx-deck build ./src/index.md"
+    "build": "mdx-deck build ./src/index.md",
+    "postbuild": "cpx './src/images/*.png' './dist/images'"
   },
   "devDependencies": {
     "cpx": "^1.5.0"
